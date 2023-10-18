@@ -3,7 +3,7 @@ Hello World!
 
 Task 1: 
 // Under this line, describe what the command 'git fetch' does
-The "git fetch" command downloads files, commits, and references from the remote repository onto the local repository.
+The "git fetch" command copies changes from your remote repository into your local repository without changing your working directory. This is what separates "git fetch" from "git pull". "git pull" copies changes from your remote repo to both your local repo and your working directory.  
 
 Task 2:
 // Under this line, describe the difference between Git and GitHub
