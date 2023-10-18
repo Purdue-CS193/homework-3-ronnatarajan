@@ -1,20 +1,20 @@
 Q1: What are the 3 commands to transfer something from your local codebase to GitHub?
-- The three commands to transfer something from my local codebase to github are "git add .", 'git commit -m "<message>"', and "git push". "git commit" requires a message argument as described; however, you can also just run git commit and type your message into the resulting popup.
+- The three commands to transfer something from my local codebase to GitHub are "git add .", 'git commit -m "<message>"', and "git push". "git commit" requires a message argument as described; however, you can also just run git commit and type your message into the resulting popup.
 
 Q2: What does 'git clone' do? 
-- git clone downloads a copy of a remote repository onto a local codebase.
+- "git clone" downloads a copy of a remote repository onto a local codebase.
 
 Q3: What does 'git status' do?
-- git status checks the state of a local repository. It tells us the branch being currently used, whether this branch is up to date with the remote repository, and if there are any changes that need to be commited. 
+- "git status" checks the state of a local repository. It tells us the branch being currently used, whether this branch is up to date with the remote repository, and if there are any changes that need to be committed. 
 
 Q4: What does "Your branch is up to date with 'origin/master'" tell you?
-- This tells me that my local repository is in the same state as the files stored on the Github remote repository
+- This tells me that my local repository is in the same state as the files stored on the GitHub remote repository
 
 Q5: You’ve made a change to a file in GitHub, the one on the browser, and now you run 'git status' on the terminal. It still says "Up to Date" despite the change. What command do you need to enter first?
 - You need to enter "git fetch".
 
 Q6: You’ve just ran the 'rm' command and deleted an important file. All your code is deleted, not including the local repository. You only ran 'git add' and 'git commit' before the rogue command. Is your code saved?
-- Yes, because I still have the local repository and committed my changes. Thus, I should be able to revert back to a previous commit from before the rougue command. 
+- Yes, because I still have the local repository and committed my changes. Thus, I should be able to revert back to a previous commit from before the rogue command. 
 
 Q7: Your computer crashes and all your code is deleted, including the local repository. You only ran 'git add' and 'git commit'. Is your code saved?
-- No because "git add" only stages your changes for them to be committed, but it doesn't acutally save your code
+- No because "git add" only stages your changes for them to be committed, but it doesn't actually save your code
